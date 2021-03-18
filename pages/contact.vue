@@ -1,6 +1,5 @@
 <template>
     <div>
-        <p>bjhuh</p>
         <nuxt-link to="/">ホームへ</nuxt-link>
     </div>
 </template>

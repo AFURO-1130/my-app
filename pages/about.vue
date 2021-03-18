@@ -1,12 +1,17 @@
 <template>
+  <v-app>
     <div>
-        <p>jjj</p>
-        <nuxt-link to="/">ホームへ</nuxt-link>
+      <nuxt-link to="/">ホームへ</nuxt-link>
+
+      <home />
     </div>
+  </v-app>
 </template>
 <script>
-import Home from "~/components/home"
+import Home from "~/components/home.vue";
 export default {
-    components: Home,
-}
+  components: {
+    Home,
+  },
+};
 </script>
