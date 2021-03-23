@@ -1,10 +1,7 @@
 <template>
-    <div>
-        <nuxt-link to="/">ホームへ</nuxt-link>
-    </div>
+    
+<v-app>
+    
+</v-app>
+    
 </template>
-<script>
-export default {
-    layout: 'home',
-}
-</script>

@@ -6,7 +6,7 @@ export default {
     titleTemplate: '%s - my-web',
     title: 'my-web',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },

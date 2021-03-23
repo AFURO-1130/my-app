@@ -1,40 +1,19 @@
 <template>
-
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <v-container>
-        <v-flex class="d-flex flex-column">
-          <nuxt-link to="/about" class="font-weight-black font-size"
-            >aboutへ</nuxt-link
-          >
-          <nuxt-link to="/works" class="font-weight-black font-size"
-            >worksへ</nuxt-link
-          >
-          <nuxt-link to="/contact" class="font-weight-black font-size"
-            >contactへ</nuxt-link
-          >
-        </v-flex>
-      </v-container>
-    </v-col>
-  </v-row>
-
-  
+  <v-app>
+    <v-app-bar color="primary" dark app>
+      <v-toolbar-title>Vuetify</v-toolbar-title>
+      <v-spacer></v-spacer>
+     
+        <v-btn to="/works" color="primary">worksへ</v-btn>
+        <v-btn to="/contact">contactへ</v-btn>
+        <v-btn to="/about">aboutへ</v-btn>
+    </v-app-bar>
+  </v-app>
 </template>
 <style>
-.font-size {
-  font-size: 2em;
-  margin-top: 10%;
-  text-decoration: none;
-}
-.font-size:hover{
-  opacity: 0.7;
-}
 </style>
 
 
 <script>
-export default {
-  //  layout: 'home',
-};
 </script>
 
